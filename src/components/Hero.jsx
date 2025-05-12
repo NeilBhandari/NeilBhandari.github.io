@@ -1,4 +1,5 @@
 import React from 'react';
+import heroBg from '../assets/hero-bg.jpg'; // ✅ Import the image
 
 const Hero = () => {
     return (
@@ -6,7 +7,7 @@ const Hero = () => {
             {/* Background Image with overlay */}
             <div className="absolute inset-0 -z-10">
                 <img
-                    src="/src/assets/hero-bg.jpg"
+                    src={heroBg}
                     alt="Background"
                     className="w-full h-full object-cover"
                 />
@@ -45,8 +46,8 @@ const Hero = () => {
                     LinkedIn
                 </a>
                 <a
-                    href="/resume.pdf"
-                    download
+                    href="/NBResume.pdf"
+                    download="NBResume.pdf" // ✅ Optional: force correct filename
                     className="text-white hover:underline"
                 >
                     Resume

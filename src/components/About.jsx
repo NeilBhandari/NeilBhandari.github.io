@@ -1,11 +1,12 @@
 import React from 'react';
+import aboutImg from '../assets/about.jpg'; // ✅ Import the image
 
 const About = () => {
     return (
         <section id="about" className="max-w-4xl mx-auto px-4 py-20 text-center">
             {/* Enlarged Profile Image */}
             <img
-                src="/src/assets/about.jpg"
+                src={aboutImg}
                 alt="Neil Bhandari"
                 className="w-52 h-52 rounded-full mx-auto mb-8 shadow-lg object-cover"
             />
