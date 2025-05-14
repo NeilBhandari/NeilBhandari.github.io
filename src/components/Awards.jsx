@@ -15,7 +15,7 @@ const Awards = () => {
                 <div>
                     <h3 className="text-xl font-semibold text-white">Dare Mighty Things Hackathon – Grand Prize</h3>
                     <p className="text-sm text-gray-400">JLL, McDonald's HQ • 2019</p>
-                    <p>Won both grand and category prize for AI-based real estate analysis solution.</p>
+                    <p>Won both grand and category prize for Natural Language Processing-based real estate analysis solution.</p>
                 </div>
 
                 <div>
